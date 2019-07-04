@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>R2D2 Internship task Submition</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="navbar"><span class="navbar-text">Movie-Search Intern_Task</span></div>
+    
+    <div class="search-bar-container">
+	  <input type="text" placeholder="Type moviename here" id="input-for-movie" onkeyup="betterFunction()" class="typeahead" list="movielist">
+	  <datalist id="movielist"></datalist>
+    </div>
+    
+    <div class="movie-details">
+    	<p>Name of the Movie : <span class="detail-component"></span></p>
+    	<p>Vote Average : <span class="detail-component"></span></p>
+    	<p>Video : <span class="detail-component"></span></p>
+    	<p>Id : <span class="detail-component"></span></p>
+    	<p>Vote Count : <span class="detail-component"></span></p>
+    </div>
+
+  <script type="text/javascript" src="js/apiCallCode.js"></script>
+</body>
+</html>
